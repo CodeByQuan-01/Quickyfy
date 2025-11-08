@@ -42,9 +42,7 @@ const Footer = () => {
               <h1>
                 <Link to="/home" className=" d-flex align-items-center gap-2">
                   <i class="ri-car-line"></i>
-                  <span>
-                    Rent Car <br /> Service
-                  </span>
+                  <span>Quickyfy</span>
                 </Link>
               </h1>
             </div>

@@ -49,15 +49,7 @@ const Header = () => {
             </Col>
 
             <Col lg="6" md="6" sm="6">
-              <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-                <Link to="#" className=" d-flex align-items-center gap-1">
-                  <i class="ri-login-circle-line"></i> Login
-                </Link>
-
-                <Link to="#" className=" d-flex align-items-center gap-1">
-                  <i class="ri-user-line"></i> Register
-                </Link>
-              </div>
+              {/* Removed Login and Register links as requested */}
             </Col>
           </Row>
         </Container>
@@ -72,9 +64,7 @@ const Header = () => {
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
                     <i class="ri-car-line"></i>
-                    <span>
-                      Rent Car <br /> Service
-                    </span>
+                    <span>Quickyfy</span>
                   </Link>
                 </h1>
               </div>
